@@ -251,7 +251,7 @@ function wordWrap(text, maxWidthPct, pctFont){
 // the file path on the server will be used.
 function addImage(fileName){
 	var imgFile = new Image();
-	var path = (local == true) ? "images/" : "/assets/images/";
+	var path = (local == true) ? "images/" : "/images/";
 	imgFile.src = path+fileName;
 	return imgFile;
 }
